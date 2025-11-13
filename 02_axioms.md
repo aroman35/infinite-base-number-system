@@ -24,11 +24,19 @@ $$0 \cdot \infty_x = 0.$$
 
 ## Аксиома 7. Параллельность бесконечностей
 Бесконечности первого порядка параллельны, если:
-$$y = lpha x + eta,\ lpha > 0.$$
+$$
+\infty^{(1)}_x \parallel \infty^{(1)}_y
+\quad \text{iff} \quad
+\exists \alpha > 0,\ \beta \in \mathbb{R}:\ y = \alpha x + \beta.
+$$
+
 
 ## Аксиома 8. Пересечение бесконечностей
-$$I(\infty_{\mathbf{x}}^{(m)},\infty_{\mathbf{y}}^{(n)}) =
-egin{cases}
-\infty_{\mathbf{z}}^{(k)}, & \mathbf{z} \subset \mathbf{x}, \mathbf{y},\
-arnothing, & 	ext{иначе}.
-\end{cases}$$
+$$
+I\big( \infty^{(m)}_{\mathbf{x}},\ \infty^{(n)}_{\mathbf{y}} \big)
+=
+\begin{cases}
+\infty^{(k)}_{\mathbf{z}}, & \text{если } \mathbf{z} \subseteq \mathbf{x} \text{ и } \mathbf{z} \subseteq \mathbf{y},\\[6pt]
+\varnothing, & \text{иначе.}
+\end{cases}
+$$

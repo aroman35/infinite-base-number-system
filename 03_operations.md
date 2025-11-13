@@ -16,7 +16,16 @@ $$\infty_{\mathbf{x}}^{(m)} \otimes \infty_{\mathbf{y}}^{(n)} =
 
 ## 5. Матрицы бесконечностей
 Матрица:
-$$A_{ij} = \infty_{\mathbf{x}_{ij}}^{(k_{ij})}.$$
+$$
+\mathbf{A} =
+\begin{pmatrix}
+\infty^{(k_{11})}_{\mathbf{x}_{11}} & \cdots & \infty^{(k_{1n})}_{\mathbf{x}_{1n}} \\
+\vdots & \ddots & \vdots \\
+\infty^{(k_{m1})}_{\mathbf{x}_{m1}} & \cdots & \infty^{(k_{mn})}_{\mathbf{x}_{mn}}
+\end{pmatrix}
+$$
 
 Умножение:
-$$(AB)_{ij}=\sum_k A_{ik} \otimes B_{kj}.$$
+$$
+(AB)_{ij} = \sum_{k=1}^{p} \Big( A_{ik} \otimes B_{kj} \Big)
+$$
